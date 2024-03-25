@@ -2,6 +2,16 @@
   "nextjs": {
     "created": "October 25, 2016",
     "description": "Web Meta framework using React",
-    "related": "React"
+    "related": ["React"]
+  },
+  "webpack": {
+    "created": "October 25, 2016",
+    "description": "Web Meta framework using React",
+    "related": ["React"]
+  },
+  "react": {
+    "created": "October 25, 2016",
+    "description": "Web Meta framework using React",
+    "related": ["React"]
   }
 }

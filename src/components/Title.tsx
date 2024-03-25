@@ -1,7 +1,9 @@
+import "./Title.css";
+
 export function Title() {
   return (
     <>
-      <h1>webdev.tools</h1>
+      <h1 id="title">devweb.tools</h1>
     </>
   );
 }
