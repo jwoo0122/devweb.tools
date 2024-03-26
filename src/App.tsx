@@ -3,15 +3,24 @@ import toolsjson from "src/assets/tools.json";
 import { ToolDot } from "src/components/ToolDot";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import { useRef } from "react";
 
 const tools = Object.entries(toolsjson);
 
 gsap.registerPlugin(useGSAP);
 
 function App() {
+  const blue = useRef(null);
+  const red = useRef(null);
+
   useGSAP(() => {
-    gsap.from(".toolDot", {
-      stagger: 0.1,
+    gsap.from(blue.current, {
+      opacity: 0,
+      y: -Math.floor(Math.random() * 200),
+      duration: 1,
+      ease: "back.inOut",
+    });
+    gsap.from(red.current, {
       opacity: 0,
       y: 10,
       duration: 0.3,
@@ -20,19 +29,19 @@ function App() {
   });
 
   return (
-    <>
+    <div className="relative w-screen h-screen max-w-screen max-h-screen mt-0 bg-zinc-800">
+      <Title />
       <div
-        style={{
-          padding: "2rem",
-        }}
-      >
-        {/* TODO: I strongly want to use full screen, this is a temporal styles */}
-        <Title />
+        ref={blue}
+        className="rounded-full absolute w-80 h-80 bg-blue-800/10 blur-2xl m-auto"
+      />
+      {/* <div ref={red} className="absolute w-80 h-80 bg-red-800/10 blur-3xl" /> */}
+      <div className="absolute">
         {tools.map(([name, datas]) => (
           <ToolDot key={name} name={name} {...datas} />
         ))}
       </div>
-    </>
+    </div>
   );
 }
 
