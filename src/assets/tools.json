@@ -1,5 +1,17 @@
 {
-  "nextjs": {
+  "vite": {
+    "created": "April 20, 2020",
+    "description": "Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects. It consists of two major parts:",
+    "icon": "vite-logo.svg",
+    "related": ["Webpack"]
+  },
+  "wasm": {
+    "created": "March 2017",
+    "description": "WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.",
+    "icon": "wasm-logo.svg",
+    "related": ["React"]
+  },
+  "next.js": {
     "created": "October 25, 2016",
     "description": "Next.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.",
     "icon": "next-js-icon.png",

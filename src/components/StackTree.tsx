@@ -19,7 +19,7 @@ export function StackTree() {
 
   return (
     <div className="relative min-h-full w-full px-20">
-      <div className="relative mt-[50vh] w-full" />
+      <div className="relative -bottom-1/2 mt-[50vh] w-full" />
       {tools.map(([name, datas], index) => (
         <Fragment key={`${name}-${index}`}>
           <StackSpec key={name} name={name} {...datas} />

@@ -16,7 +16,7 @@ export function Title() {
   return (
     <div
       ref={titleContainer}
-      className="fixed bottom-0 z-10 flex h-16 w-full items-center justify-between overflow-hidden bg-stone-800 px-20"
+      className="fixed bottom-0 z-10 flex h-12 w-full items-center justify-between overflow-hidden bg-stone-800 px-20"
     >
       <span className="mt-2 align-middle font-site-title text-xl text-stone-300">devweb.tools</span>
       <a

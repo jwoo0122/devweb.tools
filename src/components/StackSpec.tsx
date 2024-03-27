@@ -1,19 +1,17 @@
 import { tool } from 'src/types/tool';
-// import NextIcon from 'src/assets/next-js-icon.svg';
-// import './ToolDot.css';
 
 interface StackSpecProps extends tool {}
 
 export function StackSpec({ name, created, description, icon }: StackSpecProps) {
   return (
     <div className="toolDot my-8 flex flex-row items-center font-paragraph">
-      <div className="justify-centerh-40 flex w-40 shrink-0 grow-0 items-center pr-10">
-        <img src={new URL(`../assets/${icon}`, import.meta.url).href} />
+      <div className="justify-centerh-40 mr-10 flex w-32 shrink-0 grow-0 items-center">
+        <img src={new URL(`../assets/${icon}`, import.meta.url).href} className="drop-shadow-lg" />
       </div>
       <div className="grow">
-        <div className="text-lg">{created}</div>
-        <div className="mb-6 font-site-title text-4xl">{name}</div>
-        <div className="text-base text-stone-600">{description}</div>
+        <div className="mb-4 text-lg text-stone-600">{created}</div>
+        <div className="font-stack-name mb-5 text-4xl text-stone-700">{name}</div>
+        <div className="text-lg text-stone-600">{description}</div>
       </div>
     </div>
   );
