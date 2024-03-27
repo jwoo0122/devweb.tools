@@ -1,10 +1,10 @@
-import toolsjson from 'src/assets/tools.json';
+import stacksjson from 'src/assets/stacks.json';
 import { StackSpec } from 'src/components/StackSpec';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { Fragment } from 'react/jsx-runtime';
 
-const tools = Object.entries(toolsjson);
+const stacks = Object.entries(stacksjson);
 
 export function StackTree() {
   useGSAP(() => {
@@ -20,10 +20,10 @@ export function StackTree() {
   return (
     <div className="relative min-h-full w-full px-20">
       <div className="relative -bottom-1/2 mt-[50vh] w-full" />
-      {tools.map(([name, datas], index) => (
+      {stacks.map(([name, stackInfo], index) => (
         <Fragment key={`${name}-${index}`}>
-          <StackSpec key={name} name={name} {...datas} />
-          {index + 1 === tools.length ? null : <div className="h-20 w-full" />}
+          <StackSpec key={name} stack={{ name, ...stackInfo }} />
+          {index + 1 === stacks.length ? null : <div className="h-20 w-full" />}
         </Fragment>
       ))}
       <div className="relative mb-[50vh] w-full" />

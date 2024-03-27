@@ -1,8 +1,12 @@
-import { tool } from 'src/types/tool';
+import { stack } from 'src/types/tool';
 
-interface StackSpecProps extends tool {}
+interface StackSpecProps {
+  stack: stack;
+}
 
-export function StackSpec({ name, created, description, icon }: StackSpecProps) {
+export function StackSpec({ stack }: StackSpecProps) {
+  const { name, created, description, icon } = stack;
+
   return (
     <div className="toolDot my-8 flex flex-row items-center font-paragraph">
       <div className="justify-centerh-40 mr-10 flex w-32 shrink-0 grow-0 items-center">

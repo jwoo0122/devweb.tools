@@ -1,4 +1,4 @@
-export type tool = {
+export type stack = {
   name: string;
   icon: string;
   created: string;
