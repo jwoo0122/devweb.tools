@@ -1,5 +1,5 @@
 import toolsjson from 'src/assets/tools.json';
-import { ToolDot } from 'src/components/ToolDot';
+import { StackSpec } from 'src/components/StackSpec';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { Fragment } from 'react/jsx-runtime';
@@ -22,8 +22,8 @@ export function StackTree() {
       <div className="relative mt-[50vh] w-full" />
       {tools.map(([name, datas], index) => (
         <Fragment key={`${name}-${index}`}>
-          <ToolDot key={name} name={name} {...datas} />
-          {index + 1 === tools.length ? null : <div className="toolDot h-10 w-1 bg-zinc-500" />}
+          <StackSpec key={name} name={name} {...datas} />
+          {index + 1 === tools.length ? null : <div className="h-20 w-full" />}
         </Fragment>
       ))}
       <div className="relative mb-[50vh] w-full" />

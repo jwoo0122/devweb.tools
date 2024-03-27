@@ -2,16 +2,19 @@
   "nextjs": {
     "created": "October 25, 2016",
     "description": "Next.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.",
+    "icon": "next-js-icon.png",
     "related": ["React"]
   },
   "webpack": {
     "created": "February 19, 2014",
     "description": "At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph from one or more entry points and then combines every module your project needs into one or more bundles, which are static assets to serve your content from.",
+    "icon": "webpack-icon.png",
     "related": ["HTML", "Javascript"]
   },
   "react": {
     "created": "May 29, 2013",
     "description": "React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.",
+    "icon": "react-icon.webp",
     "related": ["HTML", "Javascript"]
   }
 }
