@@ -1,36 +1,18 @@
-import { Title } from "src/components/Title";
-import toolsjson from "src/assets/tools.json";
-import { ToolDot } from "src/components/ToolDot";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-
-const tools = Object.entries(toolsjson);
+import { Title } from 'src/components/Title';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { StackTree } from 'src/components/StackTree';
+import { TreeBranch } from 'src/components/TreeBranch';
 
 gsap.registerPlugin(useGSAP);
 
 function App() {
-  useGSAP(() => {
-    gsap.from(".toolDot", {
-      stagger: 0.1,
-      opacity: 0,
-      y: 10,
-      duration: 0.3,
-      ease: "back.inOut",
-    });
-  });
-
   return (
     <>
-      <div
-        style={{
-          padding: "2rem",
-        }}
-      >
-        {/* TODO: I strongly want to use full screen, this is a temporal styles */}
+      <div className="relative mt-0 w-screen">
         <Title />
-        {tools.map(([name, datas]) => (
-          <ToolDot key={name} name={name} {...datas} />
-        ))}
+        <StackTree />
+        <TreeBranch />
       </div>
     </>
   );
