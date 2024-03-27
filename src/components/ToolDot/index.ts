@@ -1,1 +1,0 @@
-export { ToolDot } from "./ToolDot";
