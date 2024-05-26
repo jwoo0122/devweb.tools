@@ -37,7 +37,7 @@
   },
   "react": {
     "created": "May 29, 2013",
-    "description": "React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.",
+    "description": "Facebook faced a number of challenges, including complex UI state management, performance limitations for efficient UI updates and rendering, and difficult code reuse and code maintenance due to a large and complex codebase. This led to the reemergence of SPA, which had been around since the early 2000s. (SPAs hadn't gotten much attention at the time because user experience wasn't a high priority). In 2013, React came along and With its virtual DOM, component-based design, one-way data flow, JSX syntax, and many other benefits, the technology quickly became a favorite among developers. \n React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.",
     "icon": "react-icon.webp",
     "related": ["HTML", "Javascript"]
   },
