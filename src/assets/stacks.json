@@ -1,4 +1,10 @@
 {
+  "remix": {
+    "created": "November 22, 2021",
+    "description": "Remix is a React framework for building full-stack web applications. Remix is primarily focused on SSR, providing fast initial page load and SEO benefits",
+    "icon": "remix-icon.svg",
+    "related": ["Webpack"]
+  },
   "vite": {
     "created": "April 20, 2020",
     "description": "Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects. It consists of two major parts:",
@@ -17,6 +23,12 @@
     "icon": "next-js-icon.png",
     "related": ["React"]
   },
+  "react-native": {
+    "created": "March 26, 2015",
+    "description": "React-Native is Mobile UI framework. with React Native, you can create truly native apps without compromising the user experience.",
+    "icon": "react-native-icon.svg",
+    "related": ["React", "Javascript"]
+  },
   "webpack": {
     "created": "February 19, 2014",
     "description": "At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph from one or more entry points and then combines every module your project needs into one or more bundles, which are static assets to serve your content from.",
@@ -28,5 +40,11 @@
     "description": "React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.",
     "icon": "react-icon.webp",
     "related": ["HTML", "Javascript"]
+  },
+  "typescirpt": {
+    "created": "October 1, 2012",
+    "description": "Typescript adds extra syntax to JavaScript to catch errors early in the editor. After that, it's converted to JavaScript in the browser, Node.js or Deno, and your app.",
+    "icon": "typescript-icon.svg",
+    "related": ["Javascript"]
   }
 }
