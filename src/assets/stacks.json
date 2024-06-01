@@ -31,7 +31,7 @@
   },
   "webpack": {
     "created": "February 19, 2014",
-    "description": "At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph from one or more entry points and then combines every module your project needs into one or more bundles, which are static assets to serve your content from.",
+    "description": "With the rapid evolution of front-ends, web apps have grown in size, making it difficult to manage web app files, and with the advent of React, the need for a module bundler became even more pressing. \nThis is where “webpack” came in, bundling all the modules an app needs into one or several modules that can be efficiently used on the web. \nwebpack is a static module bundler for modern JavaScript applications. \nWhen webpack processes your application, it internally builds a dependency graph from one or more entry points and then combines every module your project needs into one or more bundles, which are static assets to serve your content from.",
     "icon": "webpack-icon.png",
     "related": ["HTML", "Javascript"]
   },
@@ -43,7 +43,7 @@
   },
   "typescirpt": {
     "created": "October 1, 2012",
-    "description": "Typescript adds extra syntax to JavaScript to catch errors early in the editor. After that, it's converted to JavaScript in the browser, Node.js or Deno, and your app.",
+    "description": "JavaScript, a dynamically typed language, was not suitable for large-scale projects. \nIt was released by Microsoft in 2012 to address many of JavaScript's shortcomings, including difficult debugging, many runtime errors, and difficult readability and maintenance. \nTypescript is a superset of JavaScript that introduces static typing and has replaced JavaScript in many projects. \nTypescript adds extra syntax to JavaScript to catch errors early in the editor. After that, it's converted to JavaScript in the browser, Node.js or Deno, and your app.",
     "icon": "typescript-icon.svg",
     "related": ["Javascript"]
   }
