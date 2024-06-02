@@ -19,13 +19,13 @@
   },
   "next.js": {
     "created": "October 25, 2016",
-    "description": "Next.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.",
+    "description": "React is a powerful library, but Advanced features like server-side rendering, SEO, initial load speed optimization, code splitting, and more require a lot of setup and complexity to implement. \nThis is where Next.js comes in, addressing some of React's shortcomings. \nNext.js is a React framework that can co-exist with React and actually extends and enhances the ecosystem of React. \nWith Next.js, you can build user interfaces using React components and abstract and automatically configure the tools React needs, such as bundling, compilation, and optimization. \nThis allows developers to focus on building apps, not wasting time on configuration!",
     "icon": "next-js-icon.png",
     "related": ["React"]
   },
   "react-native": {
     "created": "March 26, 2015",
-    "description": "React-Native is Mobile UI framework. with React Native, you can create truly native apps without compromising the user experience.",
+    "description": "When React became the front-end of choice for mobile development, developers had to include exceptions for different devices and platforms, as Android and iOS were different languages and platforms, respectively. \nTo solve this problem, React-Native, a cross-platform language, emerged. \nReact-Native is a mobile UI framework that enables simultaneous Android and iOS development with a syntax similar to react. \nThis makes it possible for a single React developer to develop for web, Android, and iOS.",
     "icon": "react-native-icon.svg",
     "related": ["React", "Javascript"]
   },
