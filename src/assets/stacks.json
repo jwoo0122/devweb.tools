@@ -1,7 +1,7 @@
 {
   "remix": {
     "created": "November 22, 2021",
-    "description": "Remix is a React framework for building full-stack web applications. Remix is primarily focused on SSR, providing fast initial page load and SEO benefits",
+    "description": "Remix is an edge-first, full-stack framework designed to empower developers in creating exceptional user experiences while adhering to web standards. \nIt enables the development of both client-side rendered and server-side rendered web applications utilizing React and JavaScript. \n\nIn comparison to Next.js, Remix distinguishes itself with a primary focus on server rendering, catering specifically to React applications, and providing intuitive developer tools. \nThis framework is particularly well-suited for projects prioritizing search engine optimization (SEO) and performance optimization, ensuring optimal visibility and responsiveness for web applications.",
     "icon": "remix-icon.svg",
     "related": ["Webpack"]
   },
