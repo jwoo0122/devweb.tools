@@ -7,7 +7,7 @@
   },
   "vite": {
     "created": "April 20, 2020",
-    "description": "Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects. It consists of two major parts:",
+    "description": "In front-end web development, tools like webpack and rollup have been used as bundlers. \nHowever, these bundlers suffer from long development times, slow initial build speeds, and bundling of unnecessary files. \n\nInstead of bundling, Vite.js supports and directly delivers native ES modules (ESMs), eliminating the need to reload the entire application when changes are made, thus not breaking the development cycle. \nIn addition, Vite's flexible plugin ecosystem is based on rollups, providing a balance of performance and flexibility. \nThese advantages are why more and more developers are choosing Vite.",
     "icon": "vite-logo.svg",
     "related": ["Webpack"]
   },
