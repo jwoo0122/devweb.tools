@@ -12,8 +12,8 @@
     "related": ["Webpack"]
   },
   "wasm": {
-    "created": "March 2017",
-    "description": "WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.",
+    "created": "March 9 2017",
+    "description": "JavaScript is widely used in web development, but it has performance limitations when performing memory-intensive tasks. \nThis is where WebAssembly comes in. WebAssembly, or Wasm for short, is a binary instruction format for stack-based virtual machines and a new type of code that can run in modern web browsers, offering new features and significant performance benefits. \nIt is designed to effectively compile source languages such as C, C++, Rust, and others into WebAssembly bytecode, rather than writing WebAssembly code directly. \nWebAssembly focuses on speed, performance, safety, readability, debuggability, and compatibility so that it doesn't break the web. WebAssembly is not designed to replace JavaScript, but to compensate for its shortcomings so that you can take advantage of the strengths of both languages.",
     "icon": "wasm-logo.svg",
     "related": ["React"]
   },
