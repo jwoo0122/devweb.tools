@@ -1,32 +1,50 @@
 {
+  "remix": {
+    "created": "November 22, 2021",
+    "description": "Remix is an edge-first, full-stack framework designed to empower developers in creating exceptional user experiences while adhering to web standards. \nIt enables the development of both client-side rendered and server-side rendered web applications utilizing React and JavaScript. \n\nIn comparison to Next.js, Remix distinguishes itself with a primary focus on server rendering, catering specifically to React applications, and providing intuitive developer tools. \nThis framework is particularly well-suited for projects prioritizing search engine optimization (SEO) and performance optimization, ensuring optimal visibility and responsiveness for web applications.",
+    "icon": "remix-icon.svg",
+    "related": ["Webpack"]
+  },
   "vite": {
     "created": "April 20, 2020",
-    "description": "Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects. It consists of two major parts:",
+    "description": "In front-end web development, tools like webpack and rollup have been used as bundlers. \nHowever, these bundlers suffer from long development times, slow initial build speeds, and bundling of unnecessary files. \n\nInstead of bundling, Vite.js supports and directly delivers native ES modules (ESMs), eliminating the need to reload the entire application when changes are made, thus not breaking the development cycle. \nIn addition, Vite's flexible plugin ecosystem is based on rollups, providing a balance of performance and flexibility. \nThese advantages are why more and more developers are choosing Vite.",
     "icon": "vite-logo.svg",
     "related": ["Webpack"]
   },
   "wasm": {
-    "created": "March 2017",
-    "description": "WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.",
+    "created": "March 9 2017",
+    "description": "JavaScript is widely used in web development, but it has performance limitations when performing memory-intensive tasks. \nThis is where WebAssembly comes in. WebAssembly, or Wasm for short, is a binary instruction format for stack-based virtual machines and a new type of code that can run in modern web browsers, offering new features and significant performance benefits. \nIt is designed to effectively compile source languages such as C, C++, Rust, and others into WebAssembly bytecode, rather than writing WebAssembly code directly. \nWebAssembly focuses on speed, performance, safety, readability, debuggability, and compatibility so that it doesn't break the web. WebAssembly is not designed to replace JavaScript, but to compensate for its shortcomings so that you can take advantage of the strengths of both languages.",
     "icon": "wasm-logo.svg",
     "related": ["React"]
   },
   "next.js": {
     "created": "October 25, 2016",
-    "description": "Next.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.",
+    "description": "React is a powerful library, but Advanced features like server-side rendering, SEO, initial load speed optimization, code splitting, and more require a lot of setup and complexity to implement. \nThis is where Next.js comes in, addressing some of React's shortcomings. \nNext.js is a React framework that can co-exist with React and actually extends and enhances the ecosystem of React. \nWith Next.js, you can build user interfaces using React components and abstract and automatically configure the tools React needs, such as bundling, compilation, and optimization. \nThis allows developers to focus on building apps, not wasting time on configuration!",
     "icon": "next-js-icon.png",
     "related": ["React"]
   },
+  "react-native": {
+    "created": "March 26, 2015",
+    "description": "When React became the front-end of choice for mobile development, developers had to include exceptions for different devices and platforms, as Android and iOS were different languages and platforms, respectively. \nTo solve this problem, React-Native, a cross-platform language, emerged. \nReact-Native is a mobile UI framework that enables simultaneous Android and iOS development with a syntax similar to react. \nThis makes it possible for a single React developer to develop for web, Android, and iOS.",
+    "icon": "react-native-icon.svg",
+    "related": ["React", "Javascript"]
+  },
   "webpack": {
     "created": "February 19, 2014",
-    "description": "At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph from one or more entry points and then combines every module your project needs into one or more bundles, which are static assets to serve your content from.",
+    "description": "With the rapid evolution of front-ends, web apps have grown in size, making it difficult to manage web app files, and with the advent of React, the need for a module bundler became even more pressing. \nThis is where “webpack” came in, bundling all the modules an app needs into one or several modules that can be efficiently used on the web. \nwebpack is a static module bundler for modern JavaScript applications. \nWhen webpack processes your application, it internally builds a dependency graph from one or more entry points and then combines every module your project needs into one or more bundles, which are static assets to serve your content from.",
     "icon": "webpack-icon.png",
     "related": ["HTML", "Javascript"]
   },
   "react": {
     "created": "May 29, 2013",
-    "description": "React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.",
+    "description": "Facebook faced a number of challenges, including complex UI state management, performance limitations for efficient UI updates and rendering, and difficult code reuse and code maintenance due to a large and complex codebase. \nThis led to the reemergence of SPA, which had been around since the early 2000s. (SPAs hadn't gotten much attention at the time because user experience wasn't a high priority). \n\nIn 2013, React came along and With its virtual DOM, component-based design, one-way data flow, JSX syntax, and many other benefits, the technology quickly became a favorite among developers. \n React lets you build user interfaces out of individual pieces called components. \nCreate your own React components like Thumbnail, LikeButton, and Video. \nThen combine them into entire screens, pages, and apps!",
     "icon": "react-icon.webp",
     "related": ["HTML", "Javascript"]
+  },
+  "typescirpt": {
+    "created": "October 1, 2012",
+    "description": "JavaScript, a dynamically typed language, was not suitable for large-scale projects. \nIt was released by Microsoft in 2012 to address many of JavaScript's shortcomings, including difficult debugging, many runtime errors, and difficult readability and maintenance. \nTypescript is a superset of JavaScript that introduces static typing and has replaced JavaScript in many projects. \nTypescript adds extra syntax to JavaScript to catch errors early in the editor. After that, it's converted to JavaScript in the browser, Node.js or Deno, and your app.",
+    "icon": "typescript-icon.svg",
+    "related": ["Javascript"]
   }
 }
